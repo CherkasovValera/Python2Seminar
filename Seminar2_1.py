@@ -10,8 +10,7 @@ a = input()
 b = a.replace(".", "", 1)
 num = [b]
 sum_all=0
-n=len(b)
-for i in range(n):
+for i in range(len(b)):
     sum_all=int(sum_all)+int(b[i])
 print(f'{a} -> {sum_all}')
 
