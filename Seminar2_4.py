@@ -19,8 +19,6 @@ a = int(input('Введите число не менее 3:  '))
 list=[]
 for r in range(-a, a+1):
     list.append(r)
-    n=len(data_list)
-print(n)
 p1=data_list[0]*data_list[1]*data_list[2]
 print(list, end ='\n ')
 print(list[0],'*',list[2],'*',list[4], '=', p1)
